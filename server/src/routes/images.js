@@ -1,14 +1,17 @@
 import express from 'express';
 import multer from 'multer';
 import authMiddleware from '../middlewares/auth.js';
+import validate, { schemas } from '../middlewares/validate.js';
 import {
   uploadImageController,
   getImageController,
   listImagesController,
   transformImageController,
+  deleteImageController,
+  updateMetadataController,
 } from '../controllers/imageController.js';
 
-const router = express.Router();
+const router =  express.Router();
 
 const storage = multer.memoryStorage();
 const upload = multer({
@@ -27,6 +30,8 @@ const upload = multer({
 router.post('/', authMiddleware, upload.single('image'), uploadImageController);
 router.get('/:id', authMiddleware, getImageController);
 router.get('/', authMiddleware, listImagesController);
-router.post('/:id/transform', authMiddleware, transformImageController);
+router.post('/:id/transform', authMiddleware, validate(schemas.transform), transformImageController);
+router.delete('/:id', authMiddleware, deleteImageController);
+router.patch('/:id/metadata', authMiddleware, validate(schemas.updateMetadata), updateMetadataController);
 
 export default router;

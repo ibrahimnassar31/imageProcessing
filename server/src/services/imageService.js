@@ -74,3 +74,13 @@ export const transformImage = async (cloudinaryId, transformations) => {
     throw new Error('Failed to transform image');
   }
 };
+
+export const deleteImage = async (cloudinaryId) => {
+  try {
+    await cloudinary.uploader.destroy(cloudinaryId);
+    logger.info(`Image deleted from Cloudinary: ${cloudinaryId}`);
+  } catch (error) {
+    logger.error(`Cloudinary delete failed: ${error.message}`);
+    throw new Error('Failed to delete image');
+  }
+};

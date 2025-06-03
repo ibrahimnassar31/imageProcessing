@@ -1,7 +1,8 @@
 import asyncHandler from '../utils/asyncHandler.js';
 import logger from '../utils/logger.js';
 import Image from '../models/Image.js';
-import { uploadImage, transformImage } from '../services/imageService.js';
+import { uploadImage, transformImage, deleteImage } from '../services/imageService.js';
+import { getCachedData, setCachedData } from '../utils/cache.js';
 
 export const uploadImageController = asyncHandler(async (req, res) => {
   if (!req.file) {
@@ -93,11 +94,70 @@ export const transformImageController = asyncHandler(async (req, res) => {
     throw error;
   }
 
+  const cacheKey = `transform:${image.cloudinaryId}:${JSON.stringify(transformations)}`;
+  const cachedUrl = await getCachedData(cacheKey);
+
+  if (cachedUrl) {
+    logger.info(`Serving cached transformed image: ${cacheKey}`);
+    return res.status(200).json({
+      success: true,
+      data: { id: image._id, transformedUrl: cachedUrl, metadata: image.metadata },
+    });
+  }
+
   const transformedUrl = await transformImage(image.cloudinaryId, transformations);
+  await setCachedData(cacheKey, transformedUrl);
 
   logger.info(`Image transformed for user ${req.user.username}: ${image.cloudinaryId}`);
   res.status(200).json({
     success: true,
     data: { id: image._id, transformedUrl, metadata: image.metadata },
+  });
+});
+
+export const deleteImageController = asyncHandler(async (req, res) => {
+  const { id } = req.params;
+
+  const image = await Image.findOne({ _id: id, user: req.user._id });
+  if (!image) {
+    logger.warn(`Image not found: ${id}`);
+    const error = new Error('Image not found');
+    error.statusCode = 404;
+    throw error;
+  }
+
+  await deleteImage(image.cloudinaryId);
+  await Image.deleteOne({ _id: id });
+
+  logger.info(`Image deleted by user ${req.user.username}: ${image.cloudinaryId}`);
+  res.status(200).json({
+    success: true,
+    message: 'Image deleted successfully',
+  });
+});
+
+export const updateMetadataController = asyncHandler(async (req, res) => {
+  const { id } = req.params;
+  const { metadata } = req.body;
+
+  const image = await Image.findOne({ _id: id, user: req.user._id });
+  if (!image) {
+    logger.warn(`Image not found: ${id}`);
+    const error = new Error('Image not found');
+    error.statusCode = 404;
+    throw error;
+  }
+
+  image.metadata = {
+    ...image.metadata,
+    ...metadata,
+  };
+
+  await image.save();
+
+  logger.info(`Metadata updated for image ${image.cloudinaryId} by user ${req.user.username}`);
+  res.status(200).json({
+    success: true,
+    data: { id: image._id, url: image.url, metadata: image.metadata },
   });
 });

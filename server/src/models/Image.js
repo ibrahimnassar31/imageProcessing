@@ -9,18 +9,19 @@ const imageSchema = new mongoose.Schema(
     },
     cloudinaryId: {
       type: String,
-      required: [true, 'Cloudinary ID is required'],
+      required: true,
     },
     url: {
       type: String,
-      required: [true, 'Image URL is required'],
+      required: true,
     },
     metadata: {
-      originalName: String,
-      size: Number,
-      format: String,
-      width: Number,
-      height: Number,
+      originalName: { type: String, required: true },
+      description: { type: String, default: '' },
+      size: { type: Number, required: true },
+      format: { type: String, required: true },
+      width: { type: Number, required: true },
+      height: { type: Number, required: true },
     },
   },
   { timestamps: true }

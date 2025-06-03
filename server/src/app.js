@@ -7,6 +7,7 @@ import configureCloudinary from './config/cloudinary.js';
 import errorHandler from './middlewares/errorHandler.js';
 import rateLimiter from './middlewares/rateLimiter.js';
 import logger from './utils/logger.js';
+import { connectCache } from './utils/cache.js';
 import authRoutes from './routes/auth.js';
 import imageRoutes from './routes/images.js';
 
@@ -21,10 +22,13 @@ connectDB();
 // إعداد Cloudinary
 configureCloudinary();
 
+// الاتصال بـ Redis
+connectCache();
+
 // Middleware
 app.use(helmet());
 app.use(cors());
-app.use(rateLimiter); // إضافة Rate Limiting
+app.use(rateLimiter);
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
