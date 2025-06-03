@@ -1,6 +1,7 @@
 import { MongoMemoryServer } from 'mongodb-memory-server';
 import mongoose from 'mongoose';
 import logger from '../src/utils/logger.js';
+import { disconnectCache } from '../src/utils/cache.js';
 
 // زيادة مهلة Jest لتجنب مشاكل الاتصال
 jest.setTimeout(30000);
@@ -17,5 +18,6 @@ beforeAll(async () => {
 afterAll(async () => {
   await mongoose.disconnect();
   await mongoServer.stop();
+  await disconnectCache();
   logger.info('MongoDB Memory Server stopped');
 });

@@ -162,3 +162,135 @@
 {"level":"info","message":"Cached data for key: transform:image-service/sy5ob0m3iinm1wywqmxz:{\"resize\":{\"width\":200,\"height\":200},\"filters\":{\"grayscale\":true},\"format\":\"png\"}","timestamp":"2025-06-03T11:46:31.143Z"}
 {"level":"info","message":"Image transformed for user ibrahim: image-service/sy5ob0m3iinm1wywqmxz","timestamp":"2025-06-03T11:46:31.144Z"}
 {"level":"info","message":"Metadata updated for image image-service/sy5ob0m3iinm1wywqmxz by user ibrahim","timestamp":"2025-06-03T11:48:42.489Z"}
+{"level":"info","message":"Server running on port 8000","timestamp":"2025-06-03T12:07:30.958Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2025-06-03T12:07:30.971Z"}
+{"level":"info","message":"MongoDB Connected: ac-zbtgmn9-shard-00-00.t3x3nwf.mongodb.net","timestamp":"2025-06-03T12:07:33.771Z"}
+{"level":"info","message":"Server running on port 8000","timestamp":"2025-06-03T12:18:30.342Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2025-06-03T12:18:30.435Z"}
+{"level":"info","message":"MongoDB Connected: ac-zbtgmn9-shard-00-00.t3x3nwf.mongodb.net","timestamp":"2025-06-03T12:18:33.866Z"}
+{"level":"info","message":"MongoDB Connected: ac-zbtgmn9-shard-00-00.t3x3nwf.mongodb.net","timestamp":"2025-06-03T12:18:33.960Z"}
+{"level":"info","message":"Starting Auth API tests","timestamp":"2025-06-03T12:19:00.333Z"}
+{"level":"info","message":"Users collection cleared after test","timestamp":"2025-06-03T12:19:00.567Z"}
+{"level":"info","message":"Users collection cleared after test","timestamp":"2025-06-03T12:19:00.834Z"}
+{"level":"info","message":"Users collection cleared after test","timestamp":"2025-06-03T12:19:01.064Z"}
+{"level":"info","message":"Users collection cleared after test","timestamp":"2025-06-03T12:19:01.307Z"}
+{"level":"info","message":"Users collection cleared after test","timestamp":"2025-06-03T12:19:01.537Z"}
+{"level":"info","message":"Finished Auth API tests","timestamp":"2025-06-03T12:19:01.541Z"}
+{"level":"info","message":"MongoDB Memory Server started at mongodb://127.0.0.1:61898/","timestamp":"2025-06-03T12:28:16.643Z"}
+{"level":"info","message":"Server running on port 8000","timestamp":"2025-06-03T12:49:32.875Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2025-06-03T12:49:32.898Z"}
+{"level":"info","message":"Starting Auth API tests","timestamp":"2025-06-03T12:49:33.454Z"}
+{"level":"info","message":"MongoDB Connected: ac-zbtgmn9-shard-00-00.t3x3nwf.mongodb.net","timestamp":"2025-06-03T12:49:36.427Z"}
+{"level":"info","message":"Users collection cleared after test","timestamp":"2025-06-03T12:49:36.761Z"}
+{"level":"info","message":"Users collection cleared after test","timestamp":"2025-06-03T12:49:37.087Z"}
+{"level":"info","message":"Users collection cleared after test","timestamp":"2025-06-03T12:49:37.398Z"}
+{"level":"info","message":"Users collection cleared after test","timestamp":"2025-06-03T12:49:37.652Z"}
+{"level":"info","message":"Users collection cleared after test","timestamp":"2025-06-03T12:49:37.917Z"}
+{"level":"info","message":"Finished Auth API tests","timestamp":"2025-06-03T12:49:37.921Z"}
+{"level":"info","message":"MongoDB Memory Server stopped","timestamp":"2025-06-03T12:49:38.051Z"}
+{"level":"info","message":"MongoDB Connected: ac-zbtgmn9-shard-00-00.t3x3nwf.mongodb.net","timestamp":"2025-06-03T12:49:41.573Z"}
+{"level":"info","message":"Server running on port 8000","timestamp":"2025-06-03T12:50:58.543Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2025-06-03T12:50:58.579Z"}
+{"level":"info","message":"Starting Auth API tests","timestamp":"2025-06-03T12:50:59.774Z"}
+{"level":"info","message":"MongoDB Connected: ac-zbtgmn9-shard-00-00.t3x3nwf.mongodb.net","timestamp":"2025-06-03T12:51:01.431Z"}
+{"level":"info","message":"Users collection cleared after test","timestamp":"2025-06-03T12:51:01.964Z"}
+{"level":"info","message":"Users collection cleared after test","timestamp":"2025-06-03T12:51:02.209Z"}
+{"level":"info","message":"Users collection cleared after test","timestamp":"2025-06-03T12:51:02.534Z"}
+{"level":"info","message":"Users collection cleared after test","timestamp":"2025-06-03T12:51:03.291Z"}
+{"level":"info","message":"Users collection cleared after test","timestamp":"2025-06-03T12:51:03.564Z"}
+{"level":"info","message":"Finished Auth API tests","timestamp":"2025-06-03T12:51:03.568Z"}
+{"level":"info","message":"MongoDB Memory Server stopped","timestamp":"2025-06-03T12:51:03.668Z"}
+{"level":"info","message":"MongoDB Connected: ac-zbtgmn9-shard-00-00.t3x3nwf.mongodb.net","timestamp":"2025-06-03T12:51:07.282Z"}
+{"level":"info","message":"Server running on port 8000","timestamp":"2025-06-03T12:55:32.650Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2025-06-03T12:55:32.657Z"}
+{"level":"info","message":"MongoDB Connected: ac-zbtgmn9-shard-00-00.t3x3nwf.mongodb.net","timestamp":"2025-06-03T12:55:36.708Z"}
+{"level":"info","message":"Server running on port 8000","timestamp":"2025-06-03T12:55:59.270Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2025-06-03T12:55:59.400Z"}
+{"level":"info","message":"Starting Auth API tests","timestamp":"2025-06-03T12:55:59.951Z"}
+{"level":"info","message":"MongoDB Connected: ac-zbtgmn9-shard-00-00.t3x3nwf.mongodb.net","timestamp":"2025-06-03T12:56:01.812Z"}
+{"level":"info","message":"Users collection cleared after test","timestamp":"2025-06-03T12:56:02.051Z"}
+{"level":"info","message":"Users collection cleared after test","timestamp":"2025-06-03T12:56:02.266Z"}
+{"level":"info","message":"Users collection cleared after test","timestamp":"2025-06-03T12:56:02.480Z"}
+{"level":"info","message":"Users collection cleared after test","timestamp":"2025-06-03T12:56:02.697Z"}
+{"level":"info","message":"Users collection cleared after test","timestamp":"2025-06-03T12:56:02.906Z"}
+{"level":"info","message":"Finished Auth API tests","timestamp":"2025-06-03T12:56:02.910Z"}
+{"level":"info","message":"Redis client disconnected","timestamp":"2025-06-03T12:56:02.997Z"}
+{"level":"info","message":"MongoDB Memory Server stopped","timestamp":"2025-06-03T12:56:02.999Z"}
+{"level":"info","message":"Server running on port 8000","timestamp":"2025-06-03T12:56:03.462Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2025-06-03T12:56:03.488Z"}
+{"level":"info","message":"MongoDB Connected: ac-zbtgmn9-shard-00-00.t3x3nwf.mongodb.net","timestamp":"2025-06-03T12:56:05.915Z"}
+{"level":"info","message":"Token generated for userId: 683ef0e614e29262f2e39dac","timestamp":"2025-06-03T12:56:06.410Z"}
+{"level":"info","message":"User registered: testuser","timestamp":"2025-06-03T12:56:06.413Z"}
+{"level":"info","message":"Test user registered for Images API tests","timestamp":"2025-06-03T12:56:06.422Z"}
+{"level":"info","message":"Images collection cleared after test","timestamp":"2025-06-03T12:56:06.670Z"}
+{"level":"info","message":"Images collection cleared after test","timestamp":"2025-06-03T12:56:06.889Z"}
+{"level":"info","message":"Images collection cleared after test","timestamp":"2025-06-03T12:56:07.106Z"}
+{"level":"info","message":"Images collection cleared after test","timestamp":"2025-06-03T12:56:07.304Z"}
+{"level":"info","message":"Images collection cleared after test","timestamp":"2025-06-03T12:56:07.505Z"}
+{"level":"info","message":"Images collection cleared after test","timestamp":"2025-06-03T12:56:07.708Z"}
+{"level":"info","message":"Users collection cleared after all tests","timestamp":"2025-06-03T12:56:07.906Z"}
+{"level":"info","message":"Redis client disconnected","timestamp":"2025-06-03T12:56:07.984Z"}
+{"level":"info","message":"MongoDB Memory Server stopped","timestamp":"2025-06-03T12:56:07.986Z"}
+{"level":"info","message":"Server running on port 8000","timestamp":"2025-06-03T12:58:14.071Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2025-06-03T12:58:14.096Z"}
+{"level":"info","message":"Starting Auth API tests","timestamp":"2025-06-03T12:58:14.640Z"}
+{"level":"info","message":"MongoDB Connected: ac-zbtgmn9-shard-00-00.t3x3nwf.mongodb.net","timestamp":"2025-06-03T12:58:16.926Z"}
+{"level":"info","message":"Users collection cleared after test","timestamp":"2025-06-03T12:58:17.236Z"}
+{"level":"info","message":"Users collection cleared after test","timestamp":"2025-06-03T12:58:17.521Z"}
+{"level":"info","message":"Users collection cleared after test","timestamp":"2025-06-03T12:58:17.743Z"}
+{"level":"info","message":"Users collection cleared after test","timestamp":"2025-06-03T12:58:17.959Z"}
+{"level":"info","message":"Users collection cleared after test","timestamp":"2025-06-03T12:58:18.170Z"}
+{"level":"info","message":"Finished Auth API tests","timestamp":"2025-06-03T12:58:18.174Z"}
+{"level":"info","message":"Redis client disconnected","timestamp":"2025-06-03T12:58:18.274Z"}
+{"level":"info","message":"MongoDB Memory Server stopped","timestamp":"2025-06-03T12:58:18.276Z"}
+{"level":"info","message":"Server running on port 8000","timestamp":"2025-06-03T12:58:18.709Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2025-06-03T12:58:18.748Z"}
+{"level":"info","message":"MongoDB Connected: ac-zbtgmn9-shard-00-00.t3x3nwf.mongodb.net","timestamp":"2025-06-03T12:58:21.293Z"}
+{"level":"info","message":"Token generated for userId: 683ef16d7766f060bd166be1","timestamp":"2025-06-03T12:58:21.849Z"}
+{"level":"info","message":"User registered: testuser","timestamp":"2025-06-03T12:58:21.852Z"}
+{"level":"info","message":"Test user registered for Images API tests","timestamp":"2025-06-03T12:58:21.862Z"}
+{"level":"info","message":"Images collection cleared after test","timestamp":"2025-06-03T12:58:22.133Z"}
+{"level":"info","message":"Images collection cleared after test","timestamp":"2025-06-03T12:58:22.390Z"}
+{"level":"info","message":"Images collection cleared after test","timestamp":"2025-06-03T12:58:22.627Z"}
+{"level":"info","message":"Images collection cleared after test","timestamp":"2025-06-03T12:58:22.878Z"}
+{"level":"info","message":"Images collection cleared after test","timestamp":"2025-06-03T12:58:23.089Z"}
+{"level":"info","message":"Images collection cleared after test","timestamp":"2025-06-03T12:58:23.325Z"}
+{"level":"info","message":"Users collection cleared after all tests","timestamp":"2025-06-03T12:58:23.553Z"}
+{"level":"info","message":"Redis client disconnected","timestamp":"2025-06-03T12:58:23.641Z"}
+{"level":"info","message":"MongoDB Memory Server stopped","timestamp":"2025-06-03T12:58:23.643Z"}
+{"level":"info","message":"Server running on port 8000","timestamp":"2025-06-03T12:58:45.171Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2025-06-03T12:58:45.229Z"}
+{"level":"info","message":"MongoDB Connected: ac-zbtgmn9-shard-00-00.t3x3nwf.mongodb.net","timestamp":"2025-06-03T12:58:47.757Z"}
+{"level":"info","message":"Server running on port 8000","timestamp":"2025-06-03T12:58:57.903Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2025-06-03T12:58:57.917Z"}
+{"level":"info","message":"MongoDB Connected: ac-zbtgmn9-shard-00-00.t3x3nwf.mongodb.net","timestamp":"2025-06-03T12:59:00.571Z"}
+{"level":"info","message":"Server running on port 8000","timestamp":"2025-06-03T13:04:06.142Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2025-06-03T13:04:06.155Z"}
+{"level":"info","message":"MongoDB Connected: ac-zbtgmn9-shard-00-00.t3x3nwf.mongodb.net","timestamp":"2025-06-03T13:04:08.562Z"}
+{"level":"error","message":"Invalid token: jwt expired","timestamp":"2025-06-03T13:06:41.573Z"}
+{"level":"error","message":"Invalid token - Error: Invalid token\n    at file:///E:/imageProcessing/server/src/middlewares/auth.js:31:17\n    at file:///E:/imageProcessing/server/src/utils/asyncHandler.js:2:21\n    at Layer.handleRequest (E:\\imageProcessing\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (E:\\imageProcessing\\server\\node_modules\\router\\lib\\route.js:157:13)\n    at Route.dispatch (E:\\imageProcessing\\server\\node_modules\\router\\lib\\route.js:117:3)\n    at handle (E:\\imageProcessing\\server\\node_modules\\router\\index.js:435:11)\n    at Layer.handleRequest (E:\\imageProcessing\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at E:\\imageProcessing\\server\\node_modules\\router\\index.js:295:15\n    at param (E:\\imageProcessing\\server\\node_modules\\router\\index.js:600:14)\n    at param (E:\\imageProcessing\\server\\node_modules\\router\\index.js:610:14)","timestamp":"2025-06-03T13:06:41.574Z"}
+{"level":"warn","message":"Invalid credentials for email: ibrahim@nassar.com","timestamp":"2025-06-03T13:06:48.513Z"}
+{"level":"error","message":"Invalid credentials - Error: Invalid credentials\n    at file:///E:/imageProcessing/server/src/controllers/authController.js:50:19\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-06-03T13:06:48.514Z"}
+{"level":"info","message":"Server running on port 8000","timestamp":"2025-06-03T13:07:49.203Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2025-06-03T13:07:49.212Z"}
+{"level":"info","message":"MongoDB Connected: ac-zbtgmn9-shard-00-00.t3x3nwf.mongodb.net","timestamp":"2025-06-03T13:07:51.807Z"}
+{"level":"warn","message":"Invalid credentials for email: ibrahim@nassar.com","timestamp":"2025-06-03T13:07:56.615Z"}
+{"level":"error","message":"Invalid credentials - Error: Invalid credentials\n    at file:///E:/imageProcessing/server/src/controllers/authController.js:50:19\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-06-03T13:07:56.616Z"}
+{"level":"info","message":"Token generated for userId: 683ef410098bc476ec9557a2","timestamp":"2025-06-03T13:09:36.434Z"}
+{"level":"info","message":"User registered: ibrahim","timestamp":"2025-06-03T13:09:36.435Z"}
+{"level":"warn","message":"Validation error: \"username\" is required","timestamp":"2025-06-03T13:09:41.057Z"}
+{"level":"error","message":"\"username\" is required - Error: \"username\" is required\n    at file:///E:/imageProcessing/server/src/middlewares/validate.js:10:19\n    at Layer.handleRequest (E:\\imageProcessing\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (E:\\imageProcessing\\server\\node_modules\\router\\lib\\route.js:157:13)\n    at Route.dispatch (E:\\imageProcessing\\server\\node_modules\\router\\lib\\route.js:117:3)\n    at handle (E:\\imageProcessing\\server\\node_modules\\router\\index.js:435:11)\n    at Layer.handleRequest (E:\\imageProcessing\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at E:\\imageProcessing\\server\\node_modules\\router\\index.js:295:15\n    at processParams (E:\\imageProcessing\\server\\node_modules\\router\\index.js:582:12)\n    at next (E:\\imageProcessing\\server\\node_modules\\router\\index.js:291:5)\n    at Function.handle (E:\\imageProcessing\\server\\node_modules\\router\\index.js:186:3)","timestamp":"2025-06-03T13:09:41.058Z"}
+{"level":"info","message":"Token generated for userId: 683ef410098bc476ec9557a2","timestamp":"2025-06-03T13:09:54.292Z"}
+{"level":"info","message":"User logged in: ibrahim","timestamp":"2025-06-03T13:09:54.293Z"}
+{"level":"info","message":"Image uploaded to Cloudinary: image-service/y7v03j5j3hs4f7rpyysm","timestamp":"2025-06-03T13:10:19.501Z"}
+{"level":"info","message":"Image uploaded by user ibrahim: image-service/y7v03j5j3hs4f7rpyysm","timestamp":"2025-06-03T13:10:19.727Z"}
+{"level":"error","message":"Invalid token: jwt expired","timestamp":"2025-06-03T13:10:31.665Z"}
+{"level":"error","message":"Invalid token - Error: Invalid token\n    at file:///E:/imageProcessing/server/src/middlewares/auth.js:31:17\n    at file:///E:/imageProcessing/server/src/utils/asyncHandler.js:2:21\n    at Layer.handleRequest (E:\\imageProcessing\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (E:\\imageProcessing\\server\\node_modules\\router\\lib\\route.js:157:13)\n    at Route.dispatch (E:\\imageProcessing\\server\\node_modules\\router\\lib\\route.js:117:3)\n    at handle (E:\\imageProcessing\\server\\node_modules\\router\\index.js:435:11)\n    at Layer.handleRequest (E:\\imageProcessing\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at E:\\imageProcessing\\server\\node_modules\\router\\index.js:295:15\n    at param (E:\\imageProcessing\\server\\node_modules\\router\\index.js:600:14)\n    at param (E:\\imageProcessing\\server\\node_modules\\router\\index.js:610:14)","timestamp":"2025-06-03T13:10:31.666Z"}
+{"level":"info","message":"Image uploaded to Cloudinary: image-service/xtyud31fjvd8rjvsp8nr","timestamp":"2025-06-03T13:10:49.384Z"}
+{"level":"info","message":"Image uploaded by user ibrahim: image-service/xtyud31fjvd8rjvsp8nr","timestamp":"2025-06-03T13:10:49.628Z"}
+{"level":"info","message":"Image transformed: image-service/y7v03j5j3hs4f7rpyysm","timestamp":"2025-06-03T13:10:57.484Z"}
+{"level":"info","message":"Cached data for key: transform:image-service/y7v03j5j3hs4f7rpyysm:{\"resize\":{\"width\":200,\"height\":200},\"filters\":{\"grayscale\":true},\"format\":\"png\"}","timestamp":"2025-06-03T13:10:57.485Z"}
+{"level":"info","message":"Image transformed for user ibrahim: image-service/y7v03j5j3hs4f7rpyysm","timestamp":"2025-06-03T13:10:57.485Z"}
+{"level":"warn","message":"Image not found: 683ee08dd5ce26c72720d36a","timestamp":"2025-06-03T13:11:11.499Z"}
+{"level":"error","message":"Image not found - Error: Image not found\n    at file:///E:/imageProcessing/server/src/controllers/imageController.js:146:19\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-06-03T13:11:11.499Z"}
+{"level":"info","message":"Metadata updated for image image-service/y7v03j5j3hs4f7rpyysm by user ibrahim","timestamp":"2025-06-03T13:11:21.749Z"}

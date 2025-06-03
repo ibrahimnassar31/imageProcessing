@@ -8,9 +8,6 @@ const rateLimiter = rateLimit({
     success: false,
     error: 'Too many requests, please try again later.',
   },
-  onLimitReached: (req) => {
-    logger.warn(`Rate limit reached for IP: ${req.ip}`);
-  },
 });
 
 export default rateLimiter;

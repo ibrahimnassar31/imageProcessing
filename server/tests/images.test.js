@@ -7,6 +7,7 @@ import logger from '../src/utils/logger.js';
 // Mock Cloudinary
 jest.mock('cloudinary', () => ({
   v2: {
+    config: jest.fn(),
     uploader: {
       upload_stream: jest.fn((options, callback) => {
         callback(null, {

@@ -31,4 +31,11 @@ const setCachedData = async (key, value, expiry = 3600) => {
   }
 };
 
-export { connectCache, getCachedData, setCachedData };
+const disconnectCache = async () => {
+  if (client.isOpen) {
+    await client.quit();
+    logger.info('Redis client disconnected');
+  }
+};
+
+export { connectCache, getCachedData, setCachedData, disconnectCache, client };
